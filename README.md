@@ -1,5 +1,5 @@
 # Vim-setup
-My Vim plugins
+My Vim setup
 
 *Windows*:
 global settings 
