@@ -1,4 +1,4 @@
-# Vim-setup
+# Vim
 My Vim setup
 
 **Windows**:
