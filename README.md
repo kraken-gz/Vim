@@ -1,20 +1,21 @@
 # Vim-setup
 My Vim setup
 
-*Windows*:
-global settings 
+**Windows**:
+
+Global settings 
 ```C:\Program Files (x86)\Vim``` 
 
-local user 
+Local user settings 
 ```C:\Users\<user>\vimfiles``` 
 
 ---------- 
 
-Linux 
+**Linux **
 
-global settings 
+Global settings 
 ```/etc/vim ```
 
-local user 
+Local user settings 
 
 ```~/.vimrc ```
