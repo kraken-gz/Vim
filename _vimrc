@@ -39,14 +39,38 @@ function MyDiff()
   endif
 endfunction
 
+"odavde moje customisations start
+
 "atom-dark tema
 :colorscheme atom-dark-256
 
-"consolas font, 10pt
+"da bi imao consolas font, moras ga imati instaliran na OS, jer on koristi od OS 
+"consolas font, 10pt  - na Windows
 set guifont=Consolas:h10:cANSI
 
+"consolas font, 10pt  - na Linux
+"set guifont=Consolas\ 10
+
+"consolas font, 10pt  - na MacOS
+"set guifont=Consolas\ Regular:h10
+
+" a evo i funkcija, koja, prepoznaje OS, koji je, i stavlja ga accordingly
+"
+"if has("gui_running")
+"  if has("gui_gtk2")
+"    set guifont=Consolas\ 10
+"  elseif has("gui_macvim")
+"    set guifont=Consolas\ Regular:h10
+"  elseif has("gui_win32")
+"    set guifont=Consolas:h11:cANSI
+"  endif
+"endif
+
+"prepoznaj filetype, i apply proper syntax
+filetype plugin on
+
 "auto indent
-filetype plugin indent on
+set autoindent
 
 "open close brackets fast-    {; , ce odma da {}; 
 
@@ -70,3 +94,13 @@ autocmd GUIEnter * simalt ~x
 
 "enable syntax highlighting
 syntax enable
+
+"set proper encoding 
+:set encoding=utf-8
+
+"if not working this up, have this one
+"":set fileencodings=ucs-bom,utf8,latin1
+
+
+"treat all numerals as decimal, regardless of whether they are padded with zeros. 
+set nrformats=
