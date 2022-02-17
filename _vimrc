@@ -104,3 +104,22 @@ syntax enable
 
 "treat all numerals as decimal, regardless of whether they are padded with zeros. 
 set nrformats=
+
+
+" store swap,backups, undo files in diffrent folder, to avoid clutter, on working directory . On Linux, just change to path you use (just change path, whatsoever)
+" swap files
+" set directory=<path>
+" backups
+" set backupdir=<path>
+" undo files
+" set undodir=<path>
+
+
+" swap files
+set directory=C:\Users\igor\vim_backups
+" backups
+set backupdir=C:\Users\igor\vim_backups
+" undo files
+set undodir=C:\Users\igor\vim_backups
+
+
