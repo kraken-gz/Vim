@@ -106,7 +106,7 @@ syntax enable
 set nrformats=
 
 
-" store swap,backups, undo files in diffrent folder, to avoid clutter, on working directory . On Linux, just change to path you use (just change path, whatsoever)
+" store swap, backups, undo files in different folder, to avoid clutter, on working directory . On Linux, just change to path you use (just change path, whatsoever)
 " swap files
 " set directory=<path>
 " backups
