@@ -23,3 +23,11 @@ Local user settings
 
 
 ```~/.vimrc ```
+
+--------------------------------------------------------------------------------
+
+gVimPortable - to run on Windows just extract contents. And include latest vimrc file, for latest changes
+
+
+
+
