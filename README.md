@@ -24,6 +24,12 @@ Local user settings
 
 ```~/.vimrc ```
 
+
+Put theme in ```/usr/share/vim/vim*/colors```
+
+```sudo cp atom-dark-256.vim /usr/share/vim/vim*/colors```
+
+
 --------------------------------------------------------------------------------
 
 gVimPortable - to run on Windows just extract contents. And include latest vimrc file, for latest changes
